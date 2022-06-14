@@ -39,4 +39,4 @@ jobs:
           app-name: 'dgVNetFunctionApp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C1F1F069F1C14C4FBF2FBD9B260FF948 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6A51902DD240453A8C86935A6973735D }}
